@@ -2,7 +2,7 @@
 *                                         *
 *    A C++ Terminal-Based Text Editor     *
 *                                         *
-*              By Soumya Savarn             *
+*          By Siddharth Shukla            *
 *                                         *
 ******************************************/
 
@@ -32,7 +32,7 @@ int menu() {
 //    system("CLS");  // Clear the screen
     
     cout << YELLOW_TEXT;
-    cout << "\t\t\t\t\t     Developer: Soumya Savarn\n" << "\n" << endl;
+    cout << "\t\t\t\t\t     Developer: Siddharth Shukla\n" << "\n" << endl;
     cout << CYAN_TEXT;
     cout << "1. Create a new file                   " << endl;
     cout << "2. Read and open from an existing file " << endl;

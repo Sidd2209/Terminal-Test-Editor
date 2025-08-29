@@ -1,34 +1,34 @@
-Open your terminal or command prompt, navigate
-to the directory containing your source files and
-the Makefile, and run the following commands:
+# TermiText Editor
 
-1. To build the program:
-   
-    make
-   -----
+## Overview
 
-3. To build and run the program:
-   
-    ./my_program
-   -------------
+TermiText Editor is a terminal-based text editor inspired by VIM, featuring core functionalities such as reading, writing, modifying, deleting, and compiling files. Designed for efficient file manipulation and user interaction in a Unix environment.
 
+## Build Instructions
 
-Note: In case of any error you can directly run the backup program 
-      typing ./backup in the terminal.
+1. **Build the program:**
+   ```
+   make
+   ```
 
+2. **Run the program:**
+   ```
+   ./my_program
+   ```
 
+   > If you encounter any errors, you can run the backup program:
+   ```
+   ./backup
+   ```
 
+## Features
 
-Project Description:
---------------------
+- Read, write, modify, and delete files from the terminal
+- Compile files directly within the editor
+- Lightweight and portable command-line application
 
-This project is basically a demonstration how VIM like text editors work.
-I have implemented basic features like read, write, modify, delete and compile a file using my editor.
+## Tech Stack
 
-It is a welcome project under the course DA212 lab course.
-
-Instructors: Dr. Gaurav Trivedi
-             and Dr. Arghyadip Roy
-             
-Teaching Assistants: Mr. Anupam Kumar
-                     and Mr. Pallapu Mohan Krishna
+- C programming language
+- Unix system calls
+- Makefile for build automation
